@@ -18,15 +18,19 @@
 -  python3 -m pip install -r requirement.txt   
 
 ### How to Run?
-
+> Command to run file individually
 - For `part1_zipf.py` : 
-    > python part1_zipf.py
+    > python ./source/part1_zipf.py
 
 - For `part2_language_model.py` : 
-    > python part2_language_model.py
+    > python ./source/part2_language_model.py
 
 - For `part3_hmm_tagger.py` : 
-    > python part3_hmm_tagger.py
+    > python ./source/part3_hmm_tagger.py
+
+#### To run using runner.py
+    - python runner.py
+    - Enter the file name you wish to run (ex: part1_zipf)
 
 ### Output
 
