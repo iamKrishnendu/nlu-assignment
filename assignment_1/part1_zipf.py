@@ -348,9 +348,15 @@ plt.xticks(
         "1M"
     ]
 )
-plt.ticklabel_format(
-    style="plain",
-    axis="x"
+plt.xticks(
+    corpus_sizes,
+    [
+        "10K",
+        "50K",
+        "100K",
+        "500K",
+        "1M"
+    ]
 )
 
 plt.title("Type Token Ratio vs Corpus Size")
@@ -476,9 +482,15 @@ plt.xticks(
     ]
 )
 
-plt.ticklabel_format(
-    style="plain",
-    axis="x"
+plt.xticks(
+    corpus_sizes,
+    [
+        "10K",
+        "50K",
+        "100K",
+        "500K",
+        "1M"
+    ]
 )
 
 plt.title("Moving Average TTR vs Corpus Size")
